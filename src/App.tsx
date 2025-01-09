@@ -1,5 +1,6 @@
 import { Nav } from "./components";
 import {
+    CustomerReview,
     Hero,
     PopularProducts,
     Services,
@@ -25,6 +26,9 @@ function App() {
             </section>
             <section className="padding">
                 <SpecialOffer />
+            </section>
+            <section className="bg-pale-blue padding">
+                <CustomerReview />
             </section>
         </main>
     );
