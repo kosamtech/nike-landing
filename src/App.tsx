@@ -1,5 +1,11 @@
 import { Nav } from "./components";
-import { Hero, PopularProducts, Services, SuperQuality } from "./sections";
+import {
+    Hero,
+    PopularProducts,
+    Services,
+    SpecialOffer,
+    SuperQuality,
+} from "./sections";
 
 function App() {
     return (
@@ -14,8 +20,11 @@ function App() {
             <section className="padding">
                 <SuperQuality />
             </section>
-            <section className="padding">
+            <section className="padding-x py-10">
                 <Services />
+            </section>
+            <section className="padding">
+                <SpecialOffer />
             </section>
         </main>
     );
