@@ -1,5 +1,5 @@
 import { Nav } from "./components";
-import { Hero, PopularProducts } from "./sections";
+import { Hero, PopularProducts, SuperQuality } from "./sections";
 
 function App() {
     return (
@@ -10,6 +10,9 @@ function App() {
             </section>
             <section className="padding">
                 <PopularProducts />
+            </section>
+            <section className="padding">
+                <SuperQuality />
             </section>
         </main>
     );
